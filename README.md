@@ -6,6 +6,8 @@ With this repository the classes are better explorable
 
 Javadocs are [here](http://www.openlr.org/maven/apidocs/)
 
+Related project is [openlr.js](https://github.com/tomtom-international/openlr-js)
+
 Include the library via Maven:
 
 ```xml
