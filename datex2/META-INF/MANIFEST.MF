@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: TomTom International B.V.
+Build-Jdk: 1.6.0_37
+Bundle-ManifestVersion: 2
+Bundle-Name: openlr datex2 package sources
+Bundle-SymbolicName: openlr.datex2.source
+Bundle-Version: 1.4.2
+Eclipse-SourceBundle: openlr.datex2;version="1.4.2";roots:="."
+Export-Package: META-INF.services,openlr.datex2,openlr.datex2.impl
+Require-Bundle: openlr.data;bundle-version="1.2.3",openlr.map;bundle-v
+ ersion="1.2.3"
+Import-Package: org.apache.commons.lang.builder;version="2.4.0",org.ap
+ ache.log4j;version="1.2.13",org.jvnet.jaxb2_commons.lang,org.jvnet.ja
+ xb2_commons.lang.builder
+

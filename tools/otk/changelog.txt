@@ -1,0 +1,85 @@
+===============
+Version history
+===============
+
+Software project: OpenLR - Command line toolkit 
+Latest release: 1.4.2 
+
+OpenLR tool - Provides utilities for OpenLR.
+
+
+----------------------------------------------------------------
+Version: 1.4.2
+
+Release date: 
+
+Description: Release 1.4.2
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.1
+
+Release date: 
+
+Description: Release 1.4.1
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.0
+
+Release date: 
+
+Description: Release 1.4.0
+
+Changelist:
+  New features:
+    o encode tool is now able to process a list of input locations from location files     
+    o Added new tool "loader-info" that provides information about an OpenLR map loader implementation     
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.3.0
+
+Release date: 
+
+Description: Release 1.3.0
+
+Changelist:
+  New features:
+    o Introduction of this bundled command line toolkit from a collection of separate command line tool     
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+

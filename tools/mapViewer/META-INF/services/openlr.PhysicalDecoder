@@ -1,0 +1,3 @@
+openlr.xml.OpenLRXMLDecoder
+openlr.binary.OpenLRBinaryDecoder
+openlr.datex2.OpenLRDatex2Decoder

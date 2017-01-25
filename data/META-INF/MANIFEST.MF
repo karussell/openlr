@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: TomTom International B.V.
+Build-Jdk: 1.6.0_37
+Bundle-ManifestVersion: 2
+Bundle-Name: openlr data package sources
+Bundle-SymbolicName: openlr.data.source
+Bundle-Version: 1.4.2
+Eclipse-SourceBundle: openlr.data;version="1.4.2";roots:="."
+Export-Package: openlr,openlr.decoder,openlr.encoder,openlr.location,o
+ penlr.location.data,openlr.location.utils,openlr.properties,openlr.ra
+ wLocRef
+Require-Bundle: openlr.map;bundle-version="1.2.3"
+Import-Package: org.apache.commons.lang.builder;version="2.4.0",org.ap
+ ache.log4j;version="1.2.13"
+

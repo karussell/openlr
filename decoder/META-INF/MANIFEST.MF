@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: TomTom International B.V.
+Build-Jdk: 1.6.0_37
+Bundle-ManifestVersion: 2
+Bundle-Name: openlr decoder package sources
+Bundle-SymbolicName: openlr.decoder.source
+Bundle-Version: 1.4.2
+Eclipse-SourceBundle: openlr.decoder;version="1.4.2";roots:="."
+Export-Package: openlr.decoder
+Require-Bundle: openlr.data;bundle-version="1.2.3",openlr.map;bundle-v
+ ersion="1.2.3"
+Import-Package: org.apache.log4j;version="1.2.15"
+Eclipse-BuddyPolicy: global
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: TomTom International B.V.
+Build-Jdk: 1.6.0_37
+Bundle-ManifestVersion: 2
+Bundle-Name: openlr map package sources
+Bundle-SymbolicName: openlr.map.source
+Bundle-Version: 1.4.2
+Eclipse-SourceBundle: openlr.map;version="1.4.2";roots:="."
+Export-Package: openlr.map,openlr.map.loader,openlr.map.utils
+

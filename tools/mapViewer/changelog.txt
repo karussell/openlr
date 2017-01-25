@@ -1,0 +1,197 @@
+===============
+Version history
+===============
+
+Software project: OpenLR tools - Map viewer 
+Latest release: 1.4.2 
+
+OpenLR Map Viewer tool
+
+
+----------------------------------------------------------------
+Version: 1.4.2
+
+Release date: 
+
+Description: Release 1.4.1
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.1
+
+Release date: 
+
+Description: OpenLR release 1.4.1
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+    o Map load dialog failed to setup parameters of the second map properly when two maps are 
+                loaded with different loaders.     
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.0
+
+Release date: 
+
+Description: OpenLR release 1.4.0
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+    o Renamed package "openlr.mapViewer" to "openlr.mapviewer" #
+    
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.2.3
+
+Release date: 
+
+Description: OpenLR release 1.2.3
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.2.2
+
+Release date: 2010-08-04
+
+Description: OpenLR release 1.2.2
+
+Changelist:
+  New features:
+    o Create menu.     
+    o Colors can be configured.     
+    o Show length of selected location lines.     
+    o Search lines according to their road names.     
+    o Show current location in Google Maps.     
+    o Store binary format to file.     
+
+  Fixed Bugs:
+    o Consolidated handling of positive offset and access point for point locations.     
+    o Set SideOfRoad and Orientation when the location changes.     
+    o Make base64-encoded string selectable.     
+
+  Changes:
+    o File chooser dialogs remember last directory. #
+    
+    o Adapt changes in OpenLR packages. Location handling moved to data package. #
+    
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.2.1
+
+Release date: 2010-08-04
+
+Description: OpenLR release 1.2.1
+
+Changelist:
+  New features:
+    o Search for line
+				names added     
+    o add hashCode and
+				equals method to all data classes     
+    o show location
+				references and decoding option in separate dialogs     
+    o add datex2
+				support     
+    o decode all
+				location reference formats     
+    o add point
+				location support     
+    o add screenshot
+				functionality     
+    o load and store
+				locations in a map dependent format     
+    o location data can be entered as text     
+
+  Fixed Bugs:
+
+  Changes:
+    o update
+				documentation and user guide #
+    
+    o rework work flow
+				"location selection" #
+    
+    o move map loader
+				to map package #
+    
+    o split data and view #
+    
+    o refactoring of classes #
+    
+    o line info will be shown as tooltip or in extra info message box #
+    
+    o only one datastore for all location data #
+    
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.1.0
+
+Release date: 2010-02-01
+
+Description: Release for OpenLR 1.1.0
+
+Changelist:
+  New features:
+    o The MapViewer
+				application draws an OpenLR map and provides basic
+				map view
+				functionalities. Additionally the user can select locations
+				in the
+				map and encode them. The location reference can be analyzed
+				and
+				stored. Location references can also be decoded and shown in the
+				map.
+				Offsets cannot be handled with the current version.     
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+

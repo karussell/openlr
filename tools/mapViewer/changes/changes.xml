@@ -1,0 +1,153 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd">
+	<properties>
+		<title>OpenLR - Map Viewer tool</title>
+		<author email="openlr@tomtom.com">TomTom International B.V.</author>
+	</properties>
+	<body>
+
+		<!--
+			template for future releases <release version="<version number>"
+			date="<release date>" description="<textual description>"> <action
+			dev="<developer>" type="add"> Test 1 </action> <action
+			dev="<developer>" type="update"> Test 2 </action> <action
+			dev="<developer>" type="fix"> Test 3 </action> <action
+			dev="<developer>" type="remove"> Test 4 </action> </release>
+		-->
+		
+		<release version="1.4.2" date="" description="Release 1.4.1">
+		</release>
+		
+		<release version="1.4.1" date="" description="OpenLR release 1.4.1">
+            <action dev="TomTom International B.V." type="fix">
+                Map load dialog failed to setup parameters of the second map properly when two maps are 
+                loaded with different loaders. 
+            </action>		
+		</release>
+		
+		<release version="1.4.0" date="" description="OpenLR release 1.4.0">
+		    <action dev="TomTom International B.V." type="update">
+                Renamed package "openlr.mapViewer" to "openlr.mapviewer"
+            </action>
+		</release>
+		
+		<release version="1.2.3" date="" description="OpenLR release 1.2.3">
+		
+		</release>
+		
+		<release version="1.2.2" date="2010-08-04" description="OpenLR release 1.2.2">
+			<action dev="TomTom International B.V." type="add">
+				Create menu.	
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				File chooser dialogs remember last directory.
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				Colors can be configured.
+			</action>
+			<action dev="TomTom International B.V." type="fix">
+				Consolidated handling of positive offset and access point for point locations.
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				Show length of selected location lines.
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				Search lines according to their road names.
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				Show current location in Google Maps.
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				Adapt changes in OpenLR packages. Location handling moved to data package.	
+			</action>
+			<action dev="TomTom International B.V." type="fix">
+				Set SideOfRoad and Orientation when the location changes.
+			</action>
+			<action dev="TomTom International B.V." type="fix">
+				Make base64-encoded string selectable.	
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				Store binary format to file.
+			</action>
+		</release>
+
+		<release version="1.2.1" date="2010-08-04" description="OpenLR release 1.2.1">
+			<action dev="TomTom International B.V." type="add">
+				Search for line
+				names added
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				add hashCode and
+				equals method to all data classes
+    		</action>
+			<action dev="TomTom International B.V." type="update">
+				update
+				documentation and user guide
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				show location
+				references and decoding option in separate dialogs
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				add datex2
+				support
+			</action>
+			<action dev="TomTom International B.V." type="add">
+				decode all
+				location reference formats
+    		</action>
+			<action dev="TomTom International B.V." type="add">
+				add point
+				location support
+   			</action>
+			<action dev="TomTom International B.V." type="add">
+				add screenshot
+				functionality
+    		</action>
+			<action dev="TomTom International B.V." type="add">
+				load and store
+				locations in a map dependent format
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				rework work flow
+				"location selection"
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				move map loader
+				to map package
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				split data and view
+			</action>
+			<action dev="TomTom International B.V." type="update">
+				refactoring of classes
+			 </action>
+			<action dev="TomTom International B.V." type="update">
+				line info will be shown as tooltip or in extra info message box
+    		</action>
+			<action dev="TomTom International B.V." type="add">
+				location data can be entered as text
+    		</action>
+			<action dev="TomTom International B.V." type="update">
+				only one datastore for all location data
+    		</action>
+		</release>
+
+		<release version="1.1.0" date="2010-02-01" description="Release for OpenLR 1.1.0">
+			<action dev="TomTom International B.V." type="add">
+				The MapViewer
+				application draws an OpenLR map and provides basic
+				map view
+				functionalities. Additionally the user can select locations
+				in the
+				map and encode them. The location reference can be analyzed
+				and
+				stored. Location references can also be decoded and shown in the
+				map.
+				Offsets cannot be handled with the current version.
+			</action>
+		</release>
+
+	</body>
+</document>

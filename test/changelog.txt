@@ -1,0 +1,115 @@
+===============
+Version history
+===============
+
+Software project: TomTom OpenLR Access Layer for SQLite 
+Latest release: 1.4.2 
+
+This library provides an access layer which enables OpenLR
+		to use TomTom Digital Maps in SQLite Format.
+
+
+----------------------------------------------------------------
+Version: 1.4.2
+
+Release date: 
+
+Description: OpenLR release 1.4.1
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.1
+
+Release date: 
+
+Description: OpenLR release 1.4.1
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.4.0
+
+Release date: 
+
+Description: OpenLR release 1.4.0
+
+Changelist:
+  New features:
+    o Added possibility to provide map database via input stream     
+
+  Fixed Bugs:
+
+  Changes:
+    o Improved performance of MapDatabase.getAllNodes() and MapDatabase.getAllLines #
+    
+    o Remove dependency on geotools #
+    
+    o Changed license conditions from GPL v2 to Apache v2 #
+    
+    o Adapted to interface changes in OpenLR map interface:
+                Line provides now methods that deliver GeoCoordinates instead of 
+                Point2D instances. The former methods getShape and getPointAlongLine still exist 
+                for backwards compatibility but are with lower performance. They are marked "deprecated". #
+    
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.3.0
+
+Release date: 
+
+Description: OpenLR release 1.3.0
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+    o      
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Version: 1.2.2
+
+Release date: 
+
+Description: OpenLR release 1.2.2
+
+Changelist:
+  New features:
+
+  Fixed Bugs:
+    o      
+
+  Changes:
+
+  Removed:
+
+----------------------------------------------------------------
+
